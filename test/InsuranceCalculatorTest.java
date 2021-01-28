@@ -24,6 +24,6 @@ public class InsuranceCalculatorTest {
     }
 
     private double insuranceFor(double income) {
-        return new InsuranceCalculator().calculateInsurance(income);
+        return new InsuranceCalculator().calculate(income);
     }
 }
